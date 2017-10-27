@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.van</groupId>
+	<artifactId>examples-001-storm</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+
+
+		<dependency>
+			<groupId> org.apache.storm</groupId>
+			<artifactId> storm-core</artifactId>
+			<version> 0.9.2-incubating</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/com.alibaba.rocketmq/rocketmq-client -->
+<dependency>
+    <groupId>com.alibaba.rocketmq</groupId>
+    <artifactId>rocketmq-client</artifactId>
+    <version>3.6.2.Final</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/com.alibaba/dubbo -->
+<dependency>
+    <groupId>com.alibaba</groupId>
+    <artifactId>dubbo</artifactId>
+    <version>2.5.6</version>
+</dependency>
+		
+		
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<id>alimaven</id>
+			<name>alimaven</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+</project>
